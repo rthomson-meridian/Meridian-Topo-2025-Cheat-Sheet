@@ -8,6 +8,7 @@ markmap:
 ## <a href="./Groups/Meridian-Topo-2025-Farm-Yard.html" target="_blank">Farm Yard</a>
 ## <a href="./Groups/Meridian-Topo-2025-Ground-Topo.html" target="_blank">Ground Topo</a>
 ## <a href="./Groups/Meridian-Topo-2025-Holes.html" target="_blank">Holes</a>
+## <a href="./Groups/Meridian-Topo-2025-Legal.html" target="_blank">Legal</a>
 ## <a href="./Groups/Meridian-Topo-2025-Miscellaneous.html" target="_blank">Miscellaneous</a>
 ## <a href="./Groups/Meridian-Topo-2025-Occupation-Lines.html" target="_blank">Occupation Lines</a>
 ## <a href="./Groups/Meridian-Topo-2025-Oil-and-Gas.html" target="_blank">Oil & Gas</a>
