@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Ground Topo</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<b>Ground Topo</b>","children":[{"content":"<b>&#x29bb; Groundshot</b>","children":[{"content":"<i>Size(DIA.)</i>","children":[{"content":"&#x2022; Asphalt<br>\n&#x2022; Bedrock<br>\n&#x2022; Brick<br>\n&#x2022; Concrete<br>\n&#x2022; Cultivation<br>\n&#x2022; Dirt<br>\n&#x2022; Grass<br>\n&#x2022; Gravel<br>\n&#x2022; Muskeg<br>\n&#x2022; Native Prairie<br>\n&#x2022; Other<br>\n&#x2022; Pasture<br>\n&#x2022; Paving Stone<br>\n&#x2022; Rock<br>\n&#x2022; Sand<br>\n&#x2022; Slough<br>\n&#x2022; Swamp<br>\n&#x2022; Vegetation Change<br>\n&#x2022; Original Ground<br>\n&#x2022; Construction Grade","children":[],"payload":{"tag":"li","lines":"10,31"}}],"payload":{"tag":"h4","lines":"9,10"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"32,34"}}],"payload":{"tag":"h4","lines":"31,32"}}],"payload":{"tag":"h3","lines":"7,8"}},{"content":"<b>&#x29bb; Spot Elevation</b>","children":[{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"37,38"}}],"payload":{"tag":"h4","lines":"36,37"}}],"payload":{"tag":"h3","lines":"34,35"}},{"content":"<b>&#x3030; Alignment</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Proposed<br>\n&#x2022; Existing<br>\n&#x2022; Reroute","children":[],"payload":{"tag":"li","lines":"42,46"}}],"payload":{"tag":"h4","lines":"41,42"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"47,48"}}],"payload":{"tag":"h4","lines":"46,47"}}],"payload":{"tag":"h3","lines":"39,40"}},{"content":"<b>&#x3030; Berm</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Centerline<br>\n&#x2022; Crest<br>\n&#x2022; Ground Spot<br>\n&#x2022; Top Backslope<br>\n&#x2022; Toe Slope<br>\n&#x2022; Top Slope<br>\n&#x2022; Shoulder<br>\n&#x2022; OHWM<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"52,62"}}],"payload":{"tag":"h4","lines":"51,52"}},{"content":"<i>Composition</i>","children":[{"content":"&#x2022; Dirt<br>\n&#x2022; Clay<br>\n&#x2022; Rock<br>\n&#x2022; Sand<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"63,69"}}],"payload":{"tag":"h4","lines":"62,63"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"70,72"}}],"payload":{"tag":"h4","lines":"69,70"}}],"payload":{"tag":"h3","lines":"49,50"}},{"content":"<b>&#x3030; Breakline</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Top of Slope<br>\n&#x2022; Toe of Slope<br>\n&#x2022; Top of Backslope<br>\n&#x2022; Toe of Backslope<br>\n&#x2022; Centerline Swale<br>\n&#x2022; Centerline Ditch","children":[],"payload":{"tag":"li","lines":"76,83"}}],"payload":{"tag":"h4","lines":"75,76"}},{"content":"Type","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"84,86"}}],"payload":{"tag":"h4","lines":"83,84"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"87,89"}}],"payload":{"tag":"h4","lines":"86,87"}}],"payload":{"tag":"h3","lines":"73,74"}},{"content":"<b>&#x3030; Coulee</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Top<br>\n&#x2022; Bottom<br>\n&#x2022; Edge<br>\n&#x2022; Center","children":[],"payload":{"tag":"li","lines":"93,98"}}],"payload":{"tag":"h4","lines":"92,93"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"99,101"}}],"payload":{"tag":"h4","lines":"98,99"}}],"payload":{"tag":"h3","lines":"90,91"}},{"content":"<b>&#x3030; Edge of Surface</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Asphalt<br>\n&#x2022; Gravel<br>\n&#x2022; Grass<br>\n&#x2022; Concrete<br>\n&#x2022; Dirt<br>\n&#x2022; Garden<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"105,113"}}],"payload":{"tag":"h4","lines":"104,105"}},{"content":"<i>Location</i>","children":[{"content":"&#x2022; Corner<br>\n&#x2022; Edge<br>\n&#x2022; Offset","children":[],"payload":{"tag":"li","lines":"114,118"}}],"payload":{"tag":"h4","lines":"113,114"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"119,121"}}],"payload":{"tag":"h4","lines":"118,119"}}],"payload":{"tag":"h3","lines":"102,103"}}],"payload":{"tag":"h2","lines":"6,7"}},{"colorFreezeLevel":2,"initialExpandLevel":4})</script>
+</body>
+</html>

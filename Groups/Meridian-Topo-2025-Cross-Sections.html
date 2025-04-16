@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Cross-Sections</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<b>Cross-Sections</b>","children":[{"content":"<b>&#x29bb; Railway Cross-Sections</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Centerline<br>\n&#x2022; Centerline Ditch<br>\n&#x2022; Edge of Ballast<br>\n&#x2022; Ground Spot<br>\n&#x2022; Shoulder<br>\n&#x2022; Toe of Slope<br>\n&#x2022; Top of Backslope<br>\n&#x2022; Top of Rail<br>\n&#x2022; Top of Slope","children":[],"payload":{"tag":"li","lines":"11,21"}}],"payload":{"tag":"h4","lines":"10,11"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"22,24"}}],"payload":{"tag":"h4","lines":"21,22"}}],"payload":{"tag":"h3","lines":"8,9"}},{"content":"<b>&#x29bb; Road Cross-Sections</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Centerline<br>\n&#x2022; Lane Line<br>\n&#x2022; Centerline Ditch<br>\n&#x2022; Edge of Driving Surface<br>\n&#x2022; Shoulder<br>\n&#x2022; Top of Backslope<br>\n&#x2022; Toe Slope<br>\n&#x2022; Ground Spot","children":[],"payload":{"tag":"li","lines":"29,38"}}],"payload":{"tag":"h4","lines":"28,29"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"39,41"}}],"payload":{"tag":"h4","lines":"38,39"}}],"payload":{"tag":"h3","lines":"26,27"}},{"content":"<b>&#x29bb; Water Cross-Sections</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Cut Bank<br>\n&#x2022; Ground Spot<br>\n&#x2022; Thalweg<br>\n&#x2022; High Water Mark<br>\n&#x2022; OHWM<br>\n&#x2022; Toe Slope<br>\n&#x2022; Top Slope<br>\n&#x2022; Water Edge<br>\n&#x2022; Vegetation Change","children":[],"payload":{"tag":"li","lines":"46,56"}}],"payload":{"tag":"h4","lines":"45,46"}},{"content":"<i>Item</i>","children":[{"content":"&#x2022; Canal<br>\n&#x2022; Creek<br>\n&#x2022; Ditch<br>\n&#x2022; Lagoon<br>\n&#x2022; Lake<br>\n&#x2022; Pond<br>\n&#x2022; River<br>\n&#x2022; Slough<br>\n&#x2022; Field Drain<br>\n&#x2022; Run<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"57,69"}}],"payload":{"tag":"h4","lines":"56,57"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"70,71"}}],"payload":{"tag":"h4","lines":"69,70"}}],"payload":{"tag":"h3","lines":"43,44"}}],"payload":{"tag":"h2","lines":"6,7"}},{"colorFreezeLevel":2,"initialExpandLevel":4})</script>
+</body>
+</html>

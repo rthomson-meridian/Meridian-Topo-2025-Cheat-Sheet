@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Occupation Lines</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Occupation Lines","children":[{"content":"<b>&#x29bb; Gate</b>","children":[{"content":"<i>Item</i>","children":[{"content":"&#x2022; Point<br>\n&#x2022; Edge<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"11,15"}}],"payload":{"tag":"h4","lines":"10,11"}},{"content":"<i>Type</i>","children":[{"content":"&#x2022; Chainlink<br>\n&#x2022; Wood<br>\n&#x2022; Steel<br>\n&#x2022; Barbed Wire<br>\n&#x2022; Texas<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"16,23"}}],"payload":{"tag":"h4","lines":"15,16"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"h4","lines":"23,24"}}],"payload":{"tag":"h3","lines":"8,9"}},{"content":"<b>&#x3030; Cropline</b>","children":[{"content":"<i>Direction</i>","children":[{"content":"&#x2022; North-South<br>\n&#x2022; East-West<br>\n&#x2022; NW-SE<br>\n&#x2022; NE-SW<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"29,35"}}],"payload":{"tag":"h4","lines":"28,29"}},{"content":"<i>Type of Change</i>","children":[{"content":"&#x2022; Cult - Cult<br>\n&#x2022; Cult - Ditch<br>\n&#x2022; Cult - Headland<br>\n&#x2022; Cult - Pasture<br>\n&#x2022; Headland - Pasture<br>\n&#x2022; Headland - Ditch","children":[],"payload":{"tag":"li","lines":"36,43"}}],"payload":{"tag":"h4","lines":"35,36"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"44,45"}}],"payload":{"tag":"h4","lines":"43,44"}}],"payload":{"tag":"h3","lines":"26,27"}},{"content":"<b>&#x3030; Erosion Line</b>","children":[{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"49,50"}}],"payload":{"tag":"h4","lines":"48,49"}}],"payload":{"tag":"h3","lines":"46,47"}},{"content":"<b>&#x3030; Fence</b>","children":[{"content":"<i>Description</i>","children":[{"content":"&#x2022; Barbed<br>\n&#x2022; Chain Link<br>\n&#x2022; Concert<br>\n&#x2022; Electric<br>\n&#x2022; Gatepost<br>\n&#x2022; Paige<br>\n&#x2022; Steel<br>\n&#x2022; Wood<br>\n&#x2022; High Tensile Wire<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"54,65"}}],"payload":{"tag":"h4","lines":"53,54"}},{"content":"<i>Number of Wires</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"66,68"}}],"payload":{"tag":"h4","lines":"65,66"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"69,70"}}],"payload":{"tag":"h4","lines":"68,69"}}],"payload":{"tag":"h3","lines":"51,52"}}],"payload":{"tag":"h2","lines":"6,7"}},{"colorFreezeLevel":2,"initialExpandLevel":4})</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Structures</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<b>Structures</b>","children":[{"content":"<b>&#x29bb; Bridge Feature</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Pier Pile<br>\n&#x2022; Rail Post","children":[],"payload":{"tag":"li","lines":"11,15"}}],"payload":{"tag":"h4","lines":"10,11"}},{"content":"<i>Material</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"16,18"}}],"payload":{"tag":"h4","lines":"15,16"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"19,20"}}],"payload":{"tag":"h4","lines":"18,19"}}],"payload":{"tag":"h3","lines":"8,9"}},{"content":"<b>&#x29bb; Floor Elevation</b>","children":[{"content":"<i>Location</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"24,26"}}],"payload":{"tag":"h4","lines":"23,24"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"27,28"}}],"payload":{"tag":"h4","lines":"26,27"}}],"payload":{"tag":"h3","lines":"21,22"}},{"content":"<b>&#x29bb; Tower</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Radio<br>\n&#x2022; Cell<br>\n&#x2022; Telecommunication<br>\n&#x2022; TV<br>\n&#x2022; Water<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"32,40"}}],"payload":{"tag":"h4","lines":"31,32"}},{"content":"<i>Location</i>","children":[{"content":"&#x2022; Center<br>\n&#x2022; Edge<br>\n&#x2022; Offset","children":[],"payload":{"tag":"li","lines":"41,46"}}],"payload":{"tag":"h4","lines":"40,41"}},{"content":"<i>Owner</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"47,49"}}],"payload":{"tag":"h4","lines":"46,47"}},{"content":"<i>Offset</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"50,52"}}],"payload":{"tag":"h4","lines":"49,50"}},{"content":"<i>Size/Diameter</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"53,55"}}],"payload":{"tag":"h4","lines":"52,53"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"56,57"}}],"payload":{"tag":"h4","lines":"55,56"}}],"payload":{"tag":"h3","lines":"29,30"}},{"content":"<b>&#x3030; Bridge</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Trestle<br>\n&#x2022; Truss<br>\n&#x2022; Girder<br>\n&#x2022; Beam<br>\n&#x2022; Rigid Frame<br>\n&#x2022; Log<br>\n&#x2022; Cantilever<br>\n&#x2022; Movable","children":[],"payload":{"tag":"li","lines":"61,71"}}],"payload":{"tag":"h4","lines":"60,61"}},{"content":"<i>Position</i>","children":[{"content":"&#x2022; Deck<br>\n&#x2022; Abutment<br>\n&#x2022; Abutment Expansion Joint<br>\n&#x2022; Approach Guard Rail Face<br>\n&#x2022; Approach Slab<br>\n&#x2022; Guard Rail Face<br>\n&#x2022; Headwall<br>\n&#x2022; Wingwall<br>\n&#x2022; Underside Girder<br>\n&#x2022; Pier Expansion Joint<br>\n&#x2022; Parapet Top Edge","children":[],"payload":{"tag":"li","lines":"72,85"}}],"payload":{"tag":"h4","lines":"71,72"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"86,87"}}],"payload":{"tag":"h4","lines":"85,86"}}],"payload":{"tag":"h3","lines":"58,59"}},{"content":"<b>&#x3030; Building</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Barn<br>\n&#x2022; Commercial Building<br>\n&#x2022; Dwelling<br>\n&#x2022; Garage<br>\n&#x2022; Grainery Steel Bin<br>\n&#x2022; Grainery Wood<br>\n&#x2022; Institutional Bldg.<br>\n&#x2022; Out Building<br>\n&#x2022; Quonset<br>\n&#x2022; Shed<br>\n&#x2022; Well Housing<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"91,105"}}],"payload":{"tag":"h4","lines":"90,91"}},{"content":"<i>Position</i>","children":[{"content":"&#x2022; Corner<br>\n&#x2022; Edge<br>\n&#x2022; Center<br>\n&#x2022; Offset","children":[],"payload":{"tag":"li","lines":"106,111"}}],"payload":{"tag":"h4","lines":"105,106"}},{"content":"<i>Offset</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"112,114"}}],"payload":{"tag":"h4","lines":"111,112"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"115,116"}}],"payload":{"tag":"h4","lines":"114,115"}}],"payload":{"tag":"h3","lines":"88,89"}},{"content":"<b>&#x3030; Deck</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Wood<br>\n&#x2022; Steel<br>\n&#x2022; Concrete<br>\n&#x2022; Composite<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"120,127"}}],"payload":{"tag":"h4","lines":"119,120"}},{"content":"<i>Height</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"128,130"}}],"payload":{"tag":"h4","lines":"127,128"}},{"content":"<i>Comments</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"131,132"}}],"payload":{"tag":"h4","lines":"130,131"}}],"payload":{"tag":"h3","lines":"117,118"}},{"content":"<b>&#x3030; Structure</b>","children":[{"content":"<i>Description</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"136,138"}}],"payload":{"tag":"h4","lines":"135,136"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"139,140"}}],"payload":{"tag":"h4","lines":"138,139"}}],"payload":{"tag":"h3","lines":"133,134"}}],"payload":{"tag":"h2","lines":"6,7"}},{"colorFreezeLevel":2,"initialExpandLevel":4})</script>
+</body>
+</html>

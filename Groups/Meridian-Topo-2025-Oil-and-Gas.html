@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Oil & Gas</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<b>Oil &amp; Gas</b>","children":[{"content":"<b>&#x29bb; Flare Stack</b>","children":[{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"11,12"}}],"payload":{"tag":"h4","lines":"10,11"}}],"payload":{"tag":"h3","lines":"8,9"}},{"content":"<b>&#x29bb; Lease Pickup</b>","children":[{"content":"<i>Feature</i>","children":[{"content":"&#x2022; Well Center<br>\n&#x2022; Corner<br>\n&#x2022; A/R Limit<br>\n&#x2022; CL Existing A/R","children":[],"payload":{"tag":"li","lines":"16,21"}}],"payload":{"tag":"h4","lines":"15,16"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"22,23"}}],"payload":{"tag":"h4","lines":"21,22"}}],"payload":{"tag":"h3","lines":"13,14"}},{"content":"<b>&#x29bb; WellHead</b>","children":[{"content":"<i>Location/Name</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"27,29"}}],"payload":{"tag":"h4","lines":"26,27"}},{"content":"<i>Owner</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"30,32"}}],"payload":{"tag":"h4","lines":"29,30"}},{"content":"<i>Status</i>","children":[{"content":"&#x2022; Existing<br>\n&#x2022; Proposed<br>\n&#x2022; Abandoned","children":[],"payload":{"tag":"li","lines":"33,37"}}],"payload":{"tag":"h4","lines":"32,33"}},{"content":"<i>Type</i>","children":[{"content":"&#x2022; Pump Jack<br>\n&#x2022; Gas Well<br>\n&#x2022; Slant Well<br>\n&#x2022; Screw Pump<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"38,44"}}],"payload":{"tag":"h4","lines":"37,38"}},{"content":"<i>Position</i>","children":[{"content":"&#x2022; Center<br>\n&#x2022; Edge<br>\n&#x2022; Offset<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"45,50"}}],"payload":{"tag":"h4","lines":"44,45"}},{"content":"<i>Offset</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"51,53"}}],"payload":{"tag":"h4","lines":"50,51"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"54,55"}}],"payload":{"tag":"h4","lines":"53,54"}}],"payload":{"tag":"h3","lines":"24,25"}}],"payload":{"tag":"h2","lines":"6,7"}},{"colorFreezeLevel":2,"initialExpandLevel":4})</script>
+</body>
+</html>

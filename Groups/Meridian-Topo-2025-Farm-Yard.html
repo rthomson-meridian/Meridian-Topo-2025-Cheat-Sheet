@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Farm Yard</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<b>Farm Yard</b>","children":[{"content":"<b>&#x29bb; Tank </b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Oil<br>\n&#x2022; Gas<br>\n&#x2022; Water/Cistern<br>\n&#x2022; Condensate<br>\n&#x2022; Propane<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"10,17"}}],"payload":{"tag":"h4","lines":"9,10"}},{"content":"<i>Size(DIA.)</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"18,19"}}],"payload":{"tag":"h4","lines":"17,18"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"h4","lines":"19,20"}}],"payload":{"tag":"h3","lines":"8,9"}},{"content":"<b>&#x29bb; Water Well</b>","children":[{"content":"<i>Description</i>","children":[{"content":"&#x2022; Deep<br>\n&#x2022; Shallow<br>\n&#x2022; Hydrant<br>\n&#x2022; Well House<br>\n&#x2022; Water Trough<br>\n&#x2022; Pump<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"27,35"}}],"payload":{"tag":"h4","lines":"26,27"}},{"content":"<i>Status</i>","children":[{"content":"&#x2022; In Use<br>\n&#x2022; Abandoned<br>\n&#x2022; Proposed","children":[],"payload":{"tag":"li","lines":"36,40"}}],"payload":{"tag":"h4","lines":"35,36"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"41,43"}}],"payload":{"tag":"h4","lines":"40,41"}}],"payload":{"tag":"h3","lines":"24,25"}},{"content":"<b>&#x3030; Farmyard</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Edge<br>\n&#x2022; Corner<br>\n&#x2022; Center","children":[],"payload":{"tag":"li","lines":"47,51"}}],"payload":{"tag":"h4","lines":"46,47"}},{"content":"<i>Status</i>","children":[{"content":"&#x2022; Existing<br>\n&#x2022; Abandoned<br>\n&#x2022; Proposed","children":[],"payload":{"tag":"li","lines":"52,56"}}],"payload":{"tag":"h4","lines":"51,52"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"57,59"}}],"payload":{"tag":"h4","lines":"56,57"}}],"payload":{"tag":"h3","lines":"44,45"}}],"payload":{"tag":"h2","lines":"6,7"}},{"colorFreezeLevel":2,"initialExpandLevel":4})</script>
+</body>
+</html>

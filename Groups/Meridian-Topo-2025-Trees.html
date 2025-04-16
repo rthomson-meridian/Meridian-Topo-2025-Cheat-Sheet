@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Trees</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.10/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"<b>Trees</b>","children":[{"content":"<b>&#x29bb; Tree Coniferous</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Pine<br>\n&#x2022; Spruce<br>\n&#x2022; Fir<br>\n&#x2022; Cedar<br>\n&#x2022; Juniper Bush<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"11,19"}}],"payload":{"tag":"h4","lines":"10,11"}},{"content":"<i>Size</i>","children":[{"content":"&#x2022; 0-2m<br>\n&#x2022; 2-4m<br>\n&#x2022; 4-6m<br>\n&#x2022; 6m Over","children":[],"payload":{"tag":"li","lines":"20,26"}}],"payload":{"tag":"h4","lines":"19,20"}},{"content":"<i>Drip Line</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"27,29"}}],"payload":{"tag":"h4","lines":"26,27"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"30,31"}}],"payload":{"tag":"h4","lines":"29,30"}}],"payload":{"tag":"h3","lines":"8,9"}},{"content":"<b>&#x29bb; Tree Deciduous</b>","children":[{"content":"<i>Type</i>","children":[{"content":"&#x2022; Ash<br>\n&#x2022; Maple<br>\n&#x2022; Oak<br>\n&#x2022; Elm<br>\n&#x2022; Poplar<br>\n&#x2022; Apple<br>\n&#x2022; Tamarack<br>\n&#x2022; Chokecherry<br>\n&#x2022; Willow<br>\n&#x2022; Birch<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"35,48"}}],"payload":{"tag":"h4","lines":"34,35"}},{"content":"<i>Size</i>","children":[{"content":"&#x2022; 0-2m<br>\n&#x2022; 2-4m<br>\n&#x2022; 4-6m<br>\n&#x2022; 6m Over","children":[],"payload":{"tag":"li","lines":"49,55"}}],"payload":{"tag":"h4","lines":"48,49"}},{"content":"<i>Drip Line</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"56,58"}}],"payload":{"tag":"h4","lines":"55,56"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"59,60"}}],"payload":{"tag":"h4","lines":"58,59"}}],"payload":{"tag":"h3","lines":"32,33"}},{"content":"&#x3030; Edge Bush","children":[{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"64,65"}}],"payload":{"tag":"h4","lines":"63,64"}}],"payload":{"tag":"h3","lines":"61,62"}},{"content":"<b>&#x3030; Tree Line</b>","children":[{"content":"<i>Position</i>","children":[{"content":"&#x2022; Center<br>\n&#x2022; Edge<br>\n&#x2022; Corner","children":[],"payload":{"tag":"li","lines":"69,74"}}],"payload":{"tag":"h4","lines":"68,69"}},{"content":"<i>Width + - </i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"75,77"}}],"payload":{"tag":"h4","lines":"74,75"}},{"content":"<i>Type</i>","children":[{"content":"&#x2022; Caragana<br>\n&#x2022; Elm<br>\n&#x2022; Lilac<br>\n&#x2022; Poplar<br>\n&#x2022; Spruce<br>\n&#x2022; Other","children":[],"payload":{"tag":"li","lines":"78,86"}}],"payload":{"tag":"h4","lines":"77,78"}},{"content":"<i>Remarks</i>","children":[{"content":"Manual Entry","children":[],"payload":{"tag":"li","lines":"87,88"}}],"payload":{"tag":"h4","lines":"86,87"}}],"payload":{"tag":"h3","lines":"66,67"}}],"payload":{"tag":"h2","lines":"6,7"}},{"colorFreezeLevel":2,"initialExpandLevel":4})</script>
+</body>
+</html>
